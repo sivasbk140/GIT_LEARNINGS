@@ -1,0 +1,37 @@
+🧠 GIT BASIC COMMANDS AND MANAGEMENT
+⚙️ GIT GENERAL COMMANDS
+   git --version 👉 Shows Git version and checks terminal compatibility
+
+   git status 👉 Displays tracked/untracked changes (use after repo creation)
+
+   git add <filename> 👉 Moves file to staged state from tracking
+
+   git log 👉 Lists all commits made in the repo so far
+
+   git diff 👉 Shows line-by-line changes between current and previous commit
+
+   git diff --staged 👉 Compares staged files before committing
+ 
+   git commit -a -m "message" 👉 Directly stages and commits modified files
+
+   git reset HEAD 👉 Unstages file (back to tracking state) if changes aren’t ready
+
+   git rm <filename> 👉 Removes file from repo and folder
+
+   git rm --cached <filename> 👉 Removes file only from repo, not from folder
+
+   git restore <filename> 👉 Reverts to previous state (works on uncommitted files)
+
+   git reset --hard <commit_id> 👉 Reverts repo to a previous commit (forcefully)
+
+   git clone 👉 Downloads a remote repo into local folder
+
+   git pull 👉 Updates local repo with latest changes from GitHub
+
+   git branch 👉 Shows the current branch you're working on
+
+   git checkout <branch_name> 👉 Switches to another branch
+
+   git branch -a 👉 Lists all available branches (local + remote)
+
+   git branch -M <new_name> 👉 Renames the current branch
