@@ -32,6 +32,11 @@
 
    git checkout <branch_name> 👉 Switches to another branch
 
+   git push origin main > adds to the remote repository
+
    git branch -a 👉 Lists all available branches (local + remote)
 
    git branch -M <new_name> 👉 Renames the current branch
+
+
+    INSERT -> ADD -> COMMIT -> PUSH ===> FROM LOCAL TO REMOTE REPO WE NEED TO FOLLOW THIS
