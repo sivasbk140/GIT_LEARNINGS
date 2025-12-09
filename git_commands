@@ -24,7 +24,7 @@
 
    git reset --hard <commit_id> 👉 Reverts repo to a previous commit (forcefully)
 
-   git clone 👉 Downloads a remote repo into local folder
+   git clone https link 👉 Downloads a remote repo into local folder
 
    git pull 👉 Updates local repo with latest changes from GitHub
 
